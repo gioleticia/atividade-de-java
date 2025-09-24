@@ -1,0 +1,26 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.contadordecaracters;
+
+/**
+ *
+ * @author aluno
+ */
+public class ContadorDeCaracters {
+
+
+ public static void main(String[] args) {
+
+        String str = "o mundo está calmo aqui";
+
+        int len = str.length();
+
+        System.out.println("Length of the String: " + len);
+
+    }
+
+
+    }
+
