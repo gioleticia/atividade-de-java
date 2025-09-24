@@ -1,0 +1,20 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.frasecincocracters;
+
+/**
+ *
+ * @author aluno
+ */
+public class FraseCincoCracters {
+
+    public static void main(String[] args) {
+        String str ="desventuras em serie";
+        
+   
+    String CincoCaracters = str.substring(0, 5); 
+        System.out.println("Os 5 primeiros caracteres são: " + CincoCaracters);
+    }
+}
