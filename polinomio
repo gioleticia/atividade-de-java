@@ -1,0 +1,29 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.polinomios;
+
+/**
+ *
+ * @author aluno
+ */
+public class Polinomios {
+
+    public static void main(String[] args) {
+        String str = "arara";
+        
+     
+           StringBuilder builder = new StringBuilder(str);
+            String palavraInvertida = builder.reverse().toString();
+            
+      if (str.equals(palavraInvertida)) {
+            System.out.println("A palavra '" + str + "' e um Polinomio.");
+            
+        } else {
+            System.out.println("A palavra '" + str + "' nao e um Polinomio.");
+        }
+
+      
+    }
+}
