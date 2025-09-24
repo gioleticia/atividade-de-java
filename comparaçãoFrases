@@ -1,0 +1,27 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.comparacaodenomes;
+
+/**
+ *
+ * @author aluno
+ */
+public class ComparacaoDeNomes {
+
+    public static void main(String[] args) {
+        
+        String str = "Para Beatrice — querida, adorada, morta";
+        String str1 = "Para Beatrice — querida, adorada, morta";
+        
+        System.out.println(str.equals(str1));
+        
+        if (str.equals(str1)){
+        System.out.println("as frases são iguais");
+    }
+        else{
+        System.out.println("as frases são diferentes");
+                }
+    }
+}
