@@ -1,0 +1,32 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.conversor;
+
+/**
+ *
+ * @author aluno
+ */
+public class Conversor {
+
+    public static void main(String[] args) {
+
+        String str = "lemony snicket";
+    
+        
+        
+        String MAIUSCULA = str.toUpperCase();
+        System.out.println("em forma maiuscula:"+ MAIUSCULA );
+        
+         String MINUSCULA = str.toLowerCase();
+        System.out.println("em forma minuscula:"+ MINUSCULA );
+    
+        
+        
+        
+        
+        
+        
+    }
+}
