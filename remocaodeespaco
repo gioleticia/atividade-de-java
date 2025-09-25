@@ -1,0 +1,23 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.remocaoespacos;
+
+/**
+ *
+ * @author aluno
+ */
+public class RemocaoEspacos {
+
+    public static void main(String[] args) {
+        System.out.println("entre com seu nome completo:");
+        String str = "    giovana  leticia   oliarski           raitz                       mendes";
+        String str2 = "    giovana  leticia   oliarski           raitz                       mendes";
+       
+        System.out.println("sem remocao de espaco"+str);
+    
+     str2 = str2.replaceAll("\s+"," ");
+      System.out.println("com remocao de espaco"+ str2);
+    }
+}
