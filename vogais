@@ -1,0 +1,29 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.vogais;
+
+/**
+ *
+ * @author aluno
+ */
+public class Vogais {
+
+    public static void main(String[] args) {
+        String str = "o mundo esta calmo aqui";
+        
+        int contarVogais = 0;
+        
+        str.toLowerCase();
+        
+        for (int i = 0; i < str.length(); i++){
+            char c = str.charAt(i);
+            if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u')
+                contarVogais++;
+        }
+        
+        System.out.println(contarVogais);
+    }
+    }
+
