@@ -1,0 +1,25 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.verificadordeconteudo;
+
+/**
+ *
+ * @author aluno
+ */
+public class VerificadorDeConteudo {
+
+    public static void main(String[] args) {
+        String frase = "nada como uma sopa bem quentinha em uma noite gelada";
+        String palavra = "sopa";
+        
+        if(frase.contains(palavra)){
+            System.out.println("a frase contem a palavra:"+ palavra); 
+        }
+        else{
+              System.out.println("a frase nao contem a palavra:"+ palavra); 
+        }
+       
+    }
+}
